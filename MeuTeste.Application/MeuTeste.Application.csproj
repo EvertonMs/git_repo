@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Request\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.2" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+    <!--<PackageReference Include="System.Net.Http" Version="4.3.4" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeuTeste.Domain\MeuTeste.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
